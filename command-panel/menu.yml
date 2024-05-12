@@ -1,0 +1,205 @@
+panels:
+  menu:
+    perm: default
+    rows: '6'
+    title: '&9&l         ·   伺服器菜單   ·'
+    empty: AIR
+    panelType: 
+    - unmovable
+    refresh-delay: 20
+    item:
+      '0':
+        material: red_stained_glass_pane
+        name: ' '
+      '1':
+        material: red_stained_glass_pane
+        name: ' '
+      '2':
+        material: red_stained_glass_pane
+        name: ' '
+      '3':
+        material: red_stained_glass_pane
+        name: ' '
+      '4':
+        material: red_stained_glass_pane
+        name: ' '
+      '5':
+        material: red_stained_glass_pane
+        name: ' '
+      '6':
+        material: red_stained_glass_pane
+        name: ' '
+      '7':
+        material: red_stained_glass_pane
+        name: ' '
+      '8':
+        material: barrier
+        name: '&c&l  【關閉菜單】'
+        lore:
+          - '&f&l⊳ &e&l點我關閉菜單！'
+        commands:
+          - cpc
+        enchanted:
+          - true
+      '9':
+        material: red_stained_glass_pane
+        name: ' '
+      '13':
+        material: 'cps= self'
+        stack: '1'
+        name: '&a&l                 【玩家資訊】'
+        lore:
+          - '&f&l⊳ &b&l顯示名稱 ： &f&l[%vault_prefix%] %player_name%'
+          - '&f&l⊳ &b&l玩家上綫時間 ： &e&l%cmi_user_playtime_days% 天 %cmi_user_playtime_hours% 小時 %cmi_user_playtime_minutes% 分鐘 %cmi_user_playtime_seconds% 秒'
+          - '&f&l⊳ &b&l總資產 ： &e&l&e&l%cmi_user_balance_formatted%'
+          - '&f&l⊳ &b&l簽到狀態 ： %litesignin_sign-in%'
+        enchanted:
+          - true
+      '17':
+        material: red_stained_glass_pane
+        name: ' '
+      '18':
+        material: red_stained_glass_pane
+        name: ' '
+      '21':
+        material: clock
+        stack: '1'
+        name: '&a&l                   【簽到功能】'
+        lore:
+        - '&f&l⊳ &b&l伺服器的簽到功能！ 它可以幫助你獲取一些物資！'
+        - '&f&l⊳ &b&l還沒簽到嗎？ 那就趕快簽到吧！ '
+        commands:
+        - 'sign'
+        enchanted:
+          - true
+      '22':
+        material: spawner
+        stack: '1'
+        name: '&a&l             【回到大廳】'
+        lore:
+        - '&f&l⊳ &b&l點我回到大廳！'
+        - '&f&l⊳ &b&l您也可以使用 &e&l/warp hall &b&l返回大廳'
+        commands:
+        - 'warp hall'
+        enchanted:
+          - true
+      '23':
+        material: elytra
+        stack: '1'
+        name: '&a&l               【伺服器飛行】'
+        lore:
+        - '&f&l⊳ &b&l您可以在伺服器内飛行！'
+        - '&f&l⊳ &b&l您目前所擁有的飛行時數為 ： %cmi_user_tfly_formatted%'
+        - '&f&l⊳ &b&l您也可以使用 &e&l/tfly &b&l開啓您的飛行功能。'
+        commands:
+        - 'tfly'
+        enchanted:
+          - true
+      '26':
+        material: red_stained_glass_pane
+        name: ' '
+      '27':
+        material: red_stained_glass_pane
+        name: ' '
+      '29':
+        material: emerald
+        stack: '1'
+        name: '&a&l                  【伺服器金錢排行榜】'
+        lore: 
+        - '&f&l⊳ &b&l目前持有最多金錢的玩家 ： &e&l%cmi_baltop_name_1% (%cmi_baltop_money_1%)'
+        - '&f&l⊳ &b&l您目前的金錢 ： &e&l%cmi_user_balance_formatted% (%cmi_user_baltop% 名)'
+        - '&f&l⊳ &b&l您也可以使用 &e&l/baltop &b&l來查看伺服器的金錢排行榜榜'
+        commands:
+        - 'baltop'
+        enchanted:
+          - true
+      '30':
+        material: compass
+        stack: '1'
+        name: '&a&l             【傳送點菜單】'
+        lore:
+        - '&f&l⊳ &b&l一些可以讓冒險者們參觀的傳送點！'
+        - '&f&l⊳ &b&l您也可以使用 &e&l/warps &b&l來查看傳送點菜單！'
+        commands:
+        - 'open= warps_1'
+        enchanted:
+          - true
+      '31':
+        material: blue_shulker_box
+        stack: '1'
+        name: '&a&l             【禮包】'
+        lore:
+        - '&f&l⊳ &b&l查看伺服器内的禮包！'
+        - '&f&l⊳ &b&l您也可以使用 &e&l/kits &b&l來查看可使用/不可使用的禮包'
+        commands:
+        - 'kit'
+        enchanted:
+          - true
+      '32':
+        material: recovery_compass
+        stack: '1'
+        name: '&a&l        【傳送至領地】'
+        lore:
+        - '&f&l⊳ &b&l傳送至其他人的領地'
+        - '&f&l⊳ &b&l您也可以使用 /res tp [名稱]'
+        player-input:
+        - 'res tp %cp-player-input%'
+        enchanted:
+          - true
+      '33':
+        material: command_block
+        stack: '1'
+        name: '&a&l           【指令菜單】'
+        lore:
+          - '&f&l⊳ &b&l一些其他的奇奇怪怪的指令列表。'
+          - '&f&l⊳ &b&l您可以使用 &e&l/commands &b&l打開。'
+        commands:
+        - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+      '35':
+        material: red_stained_glass_pane
+        name: ' '
+      '36':
+        material: red_stained_glass_pane
+        name: ' '
+      '40':
+        material: barrier
+        name: '&a&l          【活動專區】'
+        lore:
+        - '&f&l⊳ &b&l這裏放著伺服器的活動專區 ！'
+        - '&f&l⊳ &b&l目前進行中的活動 ： &e&l暫無'
+        commands:
+          - 'open= events_menu'
+      '44':
+        material: red_stained_glass_pane
+        name: ' '
+      '45':
+        material: red_stained_glass_pane
+        name: ' '
+      '46':
+        material: red_stained_glass_pane
+        name: ' '
+      '47':
+        material: red_stained_glass_pane
+        name: ' '
+      '48':
+        material: red_stained_glass_pane
+        name: ' '
+      '49':
+        material: red_stained_glass_pane
+        name: ' '
+      '50':
+        material: red_stained_glass_pane
+        name: ' '
+      '51':
+        material: red_stained_glass_pane
+        name: ' '
+      '52':
+        material: red_stained_glass_pane
+        name: ' '
+      '53':
+        material: red_stained_glass_pane
+        name: ' '
+    commands:
+      - menu
+    commands-on-open:
+      - 'msg= > [塔娘] &a&l您已經打開了伺服器菜單 ！'
