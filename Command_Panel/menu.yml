@@ -154,7 +154,7 @@ panels:
           - '&f&l⊳ &b&l一些其他的奇奇怪怪的指令列表。'
           - '&f&l⊳ &b&l您可以使用 &e&l/commands &b&l打開。'
         commands:
-        - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+        - 'msg= &f> [&d伺服娘&f] 塔娘 : &c✖ &c&l此功能尚未開發，請稍後再試！'
       '35':
         material: red_stained_glass_pane
         name: ' '
@@ -202,4 +202,4 @@ panels:
     commands:
       - menu
     commands-on-open:
-      - 'msg= > [塔娘] &a&l您已經打開了伺服器菜單 ！'
+      - 'msg= &f> [&d伺服娘&f] 塔娘 : &a✔ &a&l您已經打開了伺服器菜單 ！'
