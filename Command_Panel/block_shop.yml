@@ -1,0 +1,1015 @@
+panels:
+  shop:
+    perm: default
+    rows: '6'
+    title: '&9&l       ↣ 伺服器商店 · 主界面 ↢'
+    empty: AIR
+    item:
+      '0': &ref_0
+        material: 'black_stained_glass_pane'
+        name: ' '
+      '1': *ref_0
+      '2': *ref_0
+      '3': *ref_0
+      '4': *ref_0
+      '5': *ref_0
+      '6': *ref_0
+      '7': *ref_0
+      '8': *ref_0
+      '9': *ref_0
+      '10':
+        material: 'white_wool'
+        name: '&f&l⊳ 分類 · 羊毛'
+        lore:
+        - '&f&l⊳ 購買各種顔色的羊毛!'
+        commands:
+        - 'open= wool_shop'
+        enchanted:
+        - true
+      '11':
+        material: 'white_carpet'
+        name: '&f&l⊳ 分類 · 地毯'
+        lore:
+        - '&f&l⊳ 購買各種顔色的地毯!'
+        commands:
+        - 'open= carpet_shop'
+        enchanted:
+        - true
+        stack: '2'
+      '12':
+        material: 'white_stained_glass'
+        name: '&f&l⊳ 分類 · 玻璃'
+        lore:
+        - '&f&l⊳ 購買各種顔色的玻璃!'
+        commands:
+        - 'open= glass_shop'
+        enchanted:
+        - true
+        stack: '3'
+      '13':
+        material: 'white_stained_glass_pane'
+        name: '&f&l⊳ 分類 · 玻璃板'
+        lore:
+        - '&f&l⊳ 購買各種顔色的玻璃板!'
+        commands:
+        - 'open= glass_pane_shop'
+        enchanted:
+        - true
+        stack: '4'
+      '14':
+        material: 'white_concrete'
+        name: '&f&l⊳ 分類 · 混凝土'
+        lore:
+        - '&f&l⊳ 購買各種顔色的混凝土!'
+        commands:
+        - 'open= concrete_shop'
+        enchanted:
+        - true
+        stack: '5'
+    commands:
+      - shop
+      
+  wool_shop:
+    perm: default
+    rows: '6'
+    title: '&9&l      ↣ 伺服器商店 · 羊毛區域 ↢'
+    empty: AIR
+    item:
+      '0':
+        material: red_dye
+        name: '&c&l⊳ 返回主頁面'
+        commands:
+        - 'open= shop'
+      '1': &ref_0
+        material: black_stained_glass_pane
+        name: ' '
+      '2': *ref_0
+      '3': *ref_0
+      '4': *ref_0
+      '5': *ref_0
+      '6': *ref_0
+      '7': *ref_0
+      '8':
+        material: paper
+        name: '&e&l⊳ 回報建議'
+        lore:
+          - '&f&l⊳ 在商店裏面找不到你要的東西? 來這裏回報吧!'
+        commands:
+          - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+      '9': *ref_0
+      '10':
+        material: black_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BLACK_WOOL 64'
+        stack: '64'
+      '11':
+        material: blue_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BLUE_WOOL 64'
+        stack: '64'
+      '12':
+        material: brown_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BROWN_WOOL 64'
+        stack: '64'
+      '13':
+        material: cyan_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 CYAN_WOOL 64'
+        stack: '64'
+      '14':
+        material: gray_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 GRAY_WOOL 64'
+        stack: '64'
+      '15':
+        material: green_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 GREEN_WOOL 64'
+        stack: '64'
+      '16':
+        material: light_blue_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIGHT_BLUE_WOOL 64'
+        stack: '64'
+      '17': *ref_0
+      '18': *ref_0
+      '19':
+        material: light_gray_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIGHT_GRAY_WOOL 64'
+        stack: '64'
+      '20':
+        material: lime_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIME_WOOL 64'
+        stack: '64'
+      '21':
+        material: magenta_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 MAGENTA_WOOL 64'
+        stack: '64'
+      '22':
+        material: orange_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 ORANGE_WOOL 64'
+        stack: '64'
+      '23':
+        material: pink_wool
+        name: ''
+        lore: 
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 PINK_WOOL 64'
+        stack: '64'
+      '24':
+        material: purple_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 PURPLE_WOOL 64'
+        stack: '64'
+      '25':
+        material: red_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 RED_WOOL 64'
+        stack: '64'
+      '26': *ref_0
+      '27': *ref_0
+      '28':
+        material: white_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 WHITE_WOOL 64'
+        stack: '64'
+      '29':
+        material: yellow_wool
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 YELLOW_WOOL 64'
+        stack: '64'
+      '35': *ref_0
+      '36': *ref_0
+      '44': *ref_0
+      '45': *ref_0
+      '46': *ref_0
+      '47': *ref_0
+      '48': *ref_0
+      '49': *ref_0
+      '50': *ref_0
+      '51': *ref_0
+      '52': *ref_0
+      '53': *ref_0
+
+  carpet_shop:
+    perm: default
+    rows: '6'
+    title: '&9&l      ↣ 伺服器商店 · 地毯區域 ↢'
+    empty: AIR
+    item:
+      '0':
+        material: red_dye
+        name: '&c&l⊳ 返回主頁面'
+        commands:
+        - 'open= shop'
+      '1': &ref_0
+        material: black_stained_glass_pane
+        name: ' '
+      '2': *ref_0
+      '3': *ref_0
+      '4': *ref_0
+      '5': *ref_0
+      '6': *ref_0
+      '7': *ref_0
+      '8':
+        material: paper
+        name: '&e&l⊳ 回報建議'
+        lore:
+          - '&f&l⊳ 在商店裏面找不到你要的東西? 來這裏回報吧!'
+        commands:
+          - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+      '9': *ref_0
+      '10':
+        material: black_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BLACK_CARPET 64'
+        stack: '64'
+      '11':
+        material: blue_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BLUE_CARPET 64'
+        stack: '64'
+      '12':
+        material: brown_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BROWN_CARPET 64'
+        stack: '64'
+      '13':
+        material: cyan_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 CYAN_CARPET 64'
+        stack: '64'
+      '14':
+        material: gray_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 GRAY_CARPET 64'
+        stack: '64'
+      '15':
+        material: green_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 GREEN_CARPET 64'
+        stack: '64'
+      '16':
+        material: light_blue_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIGHT_BLUE_CARPET 64'
+        stack: '64'
+      '17': *ref_0
+      '18': *ref_0
+      '19':
+        material: light_gray_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIGHT_GRAY_CARPET 64'
+        stack: '64'
+      '20':
+        material: lime_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIME_CARPET 64'
+        stack: '64'
+      '21':
+        material: magenta_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 MAGENTA_CARPET 64'
+        stack: '64'
+      '22':
+        material: orange_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 ORANGE_CARPET 64'
+        stack: '64'
+      '23':
+        material: pink_carpet
+        name: ''
+        lore: 
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 PINK_CARPET 64'
+        stack: '64'
+      '24':
+        material: purple_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 PURPLE_CARPET 64'
+        stack: '64'
+      '25':
+        material: red_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 RED_CARPET 64'
+        stack: '64'
+      '26': *ref_0
+      '27': *ref_0
+      '28':
+        material: white_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 WHITE_CARPET 64'
+        stack: '64'
+      '29':
+        material: yellow_carpet
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 YELLOW_CARPET 64'
+        stack: '64'
+      '35': *ref_0
+      '36': *ref_0
+      '44': *ref_0
+      '45': *ref_0
+      '46': *ref_0
+      '47': *ref_0
+      '48': *ref_0
+      '49': *ref_0
+      '50': *ref_0
+      '51': *ref_0
+      '52': *ref_0
+      '53': *ref_0
+
+  glass_shop:
+    perm: default
+    rows: '6'
+    title: '&9&l      ↣ 伺服器商店 · 玻璃區域 ↢'
+    empty: AIR
+    item:
+      '0':
+        material: red_dye
+        name: '&c&l⊳ 返回主頁面'
+        commands:
+        - 'open= shop'
+      '1': &ref_0
+        material: black_stained_glass_pane
+        name: ' '
+      '2': *ref_0
+      '3': *ref_0
+      '4': *ref_0
+      '5': *ref_0
+      '6': *ref_0
+      '7': *ref_0
+      '8':
+        material: paper
+        name: '&e&l⊳ 回報建議'
+        lore:
+          - '&f&l⊳ 在商店裏面找不到你要的東西? 來這裏回報吧!'
+        commands:
+          - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+      '9': *ref_0
+      '10':
+        material: black_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BLACK_stained_glass 64'
+        stack: '64'
+      '11':
+        material: blue_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BLUE_stained_glass 64'
+        stack: '64'
+      '12':
+        material: brown_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BROWN_stained_glass 64'
+        stack: '64'
+      '13':
+        material: cyan_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 CYAN_stained_glass 64'
+        stack: '64'
+      '14':
+        material: gray_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 GRAY_stained_glass 64'
+        stack: '64'
+      '15':
+        material: green_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 GREEN_stained_glass 64'
+        stack: '64'
+      '16':
+        material: light_blue_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIGHT_BLUE_stained_glass 64'
+        stack: '64'
+      '17': *ref_0
+      '18': *ref_0
+      '19':
+        material: light_gray_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIGHT_GRAY_stained_glass 64'
+        stack: '64'
+      '20':
+        material: lime_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIME_stained_glass 64'
+        stack: '64'
+      '21':
+        material: magenta_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 MAGENTA_stained_glass 64'
+        stack: '64'
+      '22':
+        material: orange_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 ORANGE_stained_glass 64'
+        stack: '64'
+      '23':
+        material: pink_stained_glass
+        name: ''
+        lore: 
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 PINK_stained_glass 64'
+        stack: '64'
+      '24':
+        material: purple_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 PURPLE_stained_glass 64'
+        stack: '64'
+      '25':
+        material: red_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 RED_stained_glass 64'
+        stack: '64'
+      '26': *ref_0
+      '27': *ref_0
+      '28':
+        material: white_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 WHITE_stained_glass 64'
+        stack: '64'
+      '29':
+        material: yellow_stained_glass
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 YELLOW_stained_glass 64'
+        stack: '64'
+      '35': *ref_0
+      '36': *ref_0
+      '44': *ref_0
+      '45': *ref_0
+      '46': *ref_0
+      '47': *ref_0
+      '48': *ref_0
+      '49': *ref_0
+      '50': *ref_0
+      '51': *ref_0
+      '52': *ref_0
+      '53': *ref_0
+
+  glass_pane_shop:
+    perm: default
+    rows: '6'
+    title: '&9&l     ↣ 伺服器商店 · 玻璃板區域 ↢'
+    empty: AIR
+    item:
+      '0':
+        material: red_dye
+        name: '&c&l⊳ 返回主頁面'
+        commands:
+        - 'open= shop'
+      '1': &ref_0
+        material: barrier
+        name: ' '
+      '2': *ref_0
+      '3': *ref_0
+      '4': *ref_0
+      '5': *ref_0
+      '6': *ref_0
+      '7': *ref_0
+      '8':
+        material: paper
+        name: '&e&l⊳ 回報建議'
+        lore:
+          - '&f&l⊳ 在商店裏面找不到你要的東西? 來這裏回報吧!'
+        commands:
+          - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+      '9': *ref_0
+      '10':
+        material: black_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BLACK_stained_glass_pane 64'
+        stack: '64'
+      '11':
+        material: blue_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BLUE_stained_glass_pane 64'
+        stack: '64'
+      '12':
+        material: brown_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 BROWN_stained_glass_pane 64'
+        stack: '64'
+      '13':
+        material: cyan_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 CYAN_stained_glass_pane 64'
+        stack: '64'
+      '14':
+        material: gray_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 GRAY_stained_glass_pane 64'
+        stack: '64'
+      '15':
+        material: green_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 GREEN_stained_glass_pane 64'
+        stack: '64'
+      '16':
+        material: light_blue_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIGHT_BLUE_stained_glass_pane 64'
+        stack: '64'
+      '17': *ref_0
+      '18': *ref_0
+      '19':
+        material: light_gray_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIGHT_GRAY_stained_glass_pane 64'
+        stack: '64'
+      '20':
+        material: lime_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIME_stained_glass_pane 64'
+        stack: '64'
+      '21':
+        material: magenta_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 MAGENTA_stained_glass_pane 64'
+        stack: '64'
+      '22':
+        material: orange_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 ORANGE_stained_glass_pane 64'
+        stack: '64'
+      '23':
+        material: pink_stained_glass_pane
+        name: ''
+        lore: 
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 PINK_stained_glass_pane 64'
+        stack: '64'
+      '24':
+        material: purple_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 PURPLE_stained_glass_pane 64'
+        stack: '64'
+      '25':
+        material: red_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 RED_stained_glass_pane 64'
+        stack: '64'
+      '26': *ref_0
+      '27': *ref_0
+      '28':
+        material: white_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 WHITE_stained_glass_pane 64'
+        stack: '64'
+      '29':
+        material: yellow_stained_glass_pane
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 YELLOW_stained_glass_pane 64'
+        stack: '64'
+      '35': *ref_0
+      '36': *ref_0
+      '44': *ref_0
+      '45': *ref_0
+      '46': *ref_0
+      '47': *ref_0
+      '48': *ref_0
+      '49': *ref_0
+      '50': *ref_0
+      '51': *ref_0
+      '52': *ref_0
+      '53': *ref_0
+
+  concrete_shop:
+    perm: default
+    rows: '6'
+    title: '&9&l     ↣ 伺服器商店 · 混凝土區域 ↢'
+    empty: AIR
+    item:
+      '0':
+        material: red_dye
+        name: '&c&l⊳ 返回主頁面'
+        commands:
+        - 'open= shop'
+      '1': &ref_0
+        material: black_stained_glass_pane
+        name: ' '
+      '2': *ref_0
+      '3': *ref_0
+      '4': *ref_0
+      '5': *ref_0
+      '6': *ref_0
+      '7': *ref_0
+      '8':
+        material: paper
+        name: '&e&l⊳ 回報建議'
+        lore:
+          - '&f&l⊳ 在商店裏面找不到你要的東西? 來這裏回報吧!'
+        commands:
+          - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+      '9': *ref_0
+      '10':
+        material: black_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 black_concrete 64'
+        stack: '64'
+      '11':
+        material: blue_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 blue_concrete 64'
+        stack: '64'
+      '12':
+        material: brown_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 brown_concrete 64'
+        stack: '64'
+      '13':
+        material: cyan_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 cyan_concrete 64'
+        stack: '64'
+      '14':
+        material: gray_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 GRAY_concrete 64'
+        stack: '64'
+      '15':
+        material: green_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 GREEN_concrete 64'
+        stack: '64'
+      '16':
+        material: light_blue_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIGHT_BLUE_concrete 64'
+        stack: '64'
+      '17': *ref_0
+      '18': *ref_0
+      '19':
+        material: light_gray_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIGHT_GRAY_concrete 64'
+        stack: '64'
+      '20':
+        material: lime_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 LIME_concrete 64'
+        stack: '64'
+      '21':
+        material: magenta_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 MAGENTA_concrete 64'
+        stack: '64'
+      '22':
+        material: orange_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 ORANGE_concrete 64'
+        stack: '64'
+      '23':
+        material: pink_concrete
+        name: ''
+        lore: 
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 PINK_concrete 64'
+        stack: '64'
+      '24':
+        material: purple_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 PURPLE_concrete 64'
+        stack: '64'
+      '25':
+        material: red_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 RED_concrete 64'
+        stack: '64'
+      '26': *ref_0
+      '27': *ref_0
+      '28':
+        material: white_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 WHITE_concrete 64'
+        stack: '64'
+      '29':
+        material: yellow_concrete
+        name: ''
+        lore:
+          - '&f&l⊳ 使用 &e&l64眠幣 &f&l來購買此物件 。'
+          - '&f&l⊳ 您目前有 : &e&l%vault_eco_balance% 眠幣&f&l!'
+        commands:
+          - 'buy= 64 YELLOW_concrete 64'
+        stack: '64'
+      '35': *ref_0
+      '36': *ref_0
+      '44': *ref_0
+      '45': *ref_0
+      '46': *ref_0
+      '47': *ref_0
+      '48': *ref_0
+      '49': *ref_0
+      '50': *ref_0
+      '51': *ref_0
+      '52': *ref_0
+      '53': *ref_0
