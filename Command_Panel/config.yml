@@ -1,0 +1,83 @@
+# |------------------------------------------------------------------------
+# |                       CommandPanels Config File
+# |                           By RockyHawk v5.2
+# |               https://www.spigotmc.org/resources/67788/
+# |
+# |------------------------------------------------------------------------
+config:
+  refresh-panels: true
+  refresh-delay: 20
+  panel-blocks: true
+  hotbar-items: true
+  custom-commands: true
+  auto-register-commands: false
+  auto-update-panels: true
+  server-ping-timeout: 10
+  stop-sound: true
+  disabled-world-message: true
+  panel-snooper: false
+  allow-unsafe-mini-message: false
+  enable-import-command: false
+  format:
+    tag: ''
+    perms: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l &c&l您沒有權限。'
+    reload: '&f> [&d伺服娘&f] 塔娘 : &a✔ &a&l重啟完畢!'
+    nopanel: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l &c&l找不到菜單'
+    noitem: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l此菜單沒有任何可點擊物品. 請尋求管理員解決!'
+    notitem: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l找不到玩家. 請尋求管理員解決.'
+    # This for error in config.
+    error: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l文件設置錯誤. 請尋求管理員解決.'
+    offline: 離線
+    offlineHeadValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU1Mjg2YzQ3MGY2NmZmYTFhMTgzMzFjYmZmYjlhM2MyYTQ0MjRhOGM3MjU5YzQ0MzZmZDJlMzU1ODJhNTIyIn19fQ==
+    input: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l您輸入的文字太長'
+    disabled: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l此功能尚未開啟. 請尋求管理員協助.'
+input:
+  input-cancel: 取消
+  input-cancelled: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l已取消!'
+  max-input-length: -1
+  input-message:
+  - '&f> [&d伺服娘&f] 塔娘 : &e✱ &e&l請輸入您的函數 (執行指令所需要的函數)'
+  - '&f> [&d伺服娘&f] 塔娘 : &f➜ &e&l輸入 &c&l%cp-args% &e&l就可以取消輸入函數'
+hexcodes:
+  start_tag: '#'
+  end_tag: ''
+placeholders:
+  primary:
+    start: '%'
+    end: '%'
+  secondary:
+    start: '{'
+    end: '}'
+updater:
+  auto-update: false
+  minor-updates-only: true
+  update-checks: true
+purchase:
+  currency:
+    enable: true
+    success: '&f> [&d伺服娘&f] 塔娘 : &a✔ &a&l您成功購買了價值 &e&l$%cp-args%眠幣 &a&l的物品!'
+    failure: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l未知的餘額. 請尋求管理員協助.'
+  data:
+    enable: false
+    success: '&aSuccessfully Bought For $%cp-args%'
+    failure: '&cInsufficient Funds!'
+  tokens:
+    enable: false
+    success: '&aSuccessfully Bought For %cp-args% Tokens.'
+    failure: '&cInsufficient Tokens!'
+  coins:
+    enable: false
+    success: '&aSuccessfully Bought For %cp-args% Coins.'
+    failure: '&cInsufficient Coins!'
+  item:
+    enable: true
+    success: '&a成功賣出 %cp-args%.'
+    failure: '&c未知的物品. 請尋求管理員幫助!'
+  xp:
+    enable: true
+    success: '&f> [&d伺服娘&f] 塔娘 : &a✔ &a&l您成功購買了價值 &e&l$%cp-args%經驗值 &a&l的物品!'
+    failure: '&&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l未知的經驗值. 請尋求管理員協助!'
+  permission:
+    enable: true
+    success: '&f> [&d伺服娘&f] 塔娘 : &a✔ &a&l您成功使用權限 &e&l$%cp-args% &a&l購買物品!'
+    failure: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l未知的權限. 請尋求管理員幫助!'
