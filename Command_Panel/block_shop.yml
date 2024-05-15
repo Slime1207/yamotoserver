@@ -95,7 +95,7 @@ panels:
         lore:
           - '&f&l⊳ 在商店裏面找不到你要的東西? 來這裏回報吧!'
         commands:
-          - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+          - 'msg= &f> [&d伺服娘&f] 塔娘 : &c✖ &c&l此功能尚未開發，請稍後再試！'
       '9': *ref_0
       '10':
         material: black_wool
@@ -284,7 +284,7 @@ panels:
         lore:
           - '&f&l⊳ 在商店裏面找不到你要的東西? 來這裏回報吧!'
         commands:
-          - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+          - 'msg= &f> [&d伺服娘&f] 塔娘 : &c✖ &c&l此功能尚未開發，請稍後再試！'
       '9': *ref_0
       '10':
         material: black_carpet
@@ -473,7 +473,7 @@ panels:
         lore:
           - '&f&l⊳ 在商店裏面找不到你要的東西? 來這裏回報吧!'
         commands:
-          - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+          - 'msg= &f> [&d伺服娘&f] 塔娘 : &c✖ &c&l此功能尚未開發，請稍後再試！'
       '9': *ref_0
       '10':
         material: black_stained_glass
@@ -662,7 +662,7 @@ panels:
         lore:
           - '&f&l⊳ 在商店裏面找不到你要的東西? 來這裏回報吧!'
         commands:
-          - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+          - 'msg= &f> [&d伺服娘&f] 塔娘 : &c✖ &c&l此功能尚未開發，請稍後再試！'
       '9': *ref_0
       '10':
         material: black_stained_glass_pane
@@ -851,7 +851,7 @@ panels:
         lore:
           - '&f&l⊳ 在商店裏面找不到你要的東西? 來這裏回報吧!'
         commands:
-          - 'msg= > [塔娘] &c&l此功能尚未開發，請稍後再試！'
+          - 'msg= &f> [&d伺服娘&f] 塔娘 : &c✖ &c&l此功能尚未開發，請稍後再試！'
       '9': *ref_0
       '10':
         material: black_concrete
