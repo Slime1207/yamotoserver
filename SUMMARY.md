@@ -1,6 +1,12 @@
 # Table of contents
 
-* [README](README.md)
-* [.github](.github/README.md)
-  * [ISSUE\_TEMPLATE](.github/issue\_template/README.md)
-    * [玩家回報 -](.github/issue\_template/lou-dong-hui-bao.md)
+* [主頁 Main Menu](README.md)
+
+## 文檔 <a href="#docs" id="docs"></a>
+
+* [🖋️ 伺服器規則 Server Rules](docs/rules.md)
+
+## 🧰 功能 <a href="#function" id="function"></a>
+
+* [📚 功能菜單 Function Menu](function/gong-neng-cai-dan-function-menu.md)
+* [📗 領地 Residence](function/ling-di-residence.md)
