@@ -1,8 +1,25 @@
 ---
 description: 配套指令都爲 /res 開始
+layout:
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # 📗 領地 Residence
+
+<div data-full-width="true">
+
+<figure><img src="../../picture/wiki/title_residence.png" alt=""><figcaption><p>領地 / Residence</p></figcaption></figure>
+
+</div>
 
 #### 領地可以做什麽？
 

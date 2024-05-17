@@ -16,6 +16,6 @@ layout:
 
 <mark style="color:red;">**插件 Plugins**</mark>
 
-{% content-ref url="ling-di-residence.md" %}
-[ling-di-residence.md](ling-di-residence.md)
+{% content-ref url="residence.md" %}
+[residence.md](residence.md)
 {% endcontent-ref %}
