@@ -11,4 +11,4 @@
 
 * [📚 功能菜單 Function Menu](function/menu.md)
 * [📗 領地 Residence](function/residence.md)
-* [Untitled](function/untitled.md)
+* [📗 方塊保護 Block Protect](function/block\_protect.md)
