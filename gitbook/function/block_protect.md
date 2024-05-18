@@ -23,3 +23,9 @@ layout:
 首先，您需要準備一個告示牌 (任何材質都可以)
 
 接著，您需要對著您想要保護的方塊點擊右鍵 (手機版則是輕點) 后，即代表已經成功
+
+<figure><img src="https://raw.githubusercontent.com/Slime1207/yamotoserver/main/picture/wiki/003.png" alt=""><figcaption><p>成功保護視角！會出現 [私人] 然後還有你的名稱 (Java與基岩版本相同)</p></figcaption></figure>
+
+#### 保護範圍
+
+<table><thead><tr><th width="134" align="center">種類</th><th>名稱</th></tr></thead><tbody><tr><td align="center">門</td><td>橡木門，雲杉木門，白樺木門，叢林木門，金合歡木門，深色橡木門，紅樹木門，櫻花木門，竹門，鐵門，緋紅木門，詭異門</td></tr><tr><td align="center">地板門</td><td>橡木地板門，雲杉木地板門，白樺地板木門，叢林木地板門，金合歡地板木門，深色地板橡木門，紅樹地板木門，櫻花地板木門，竹地板門，鐵地板門，緋紅木地板門，詭異地板門</td></tr><tr><td align="center">容器</td><td>箱子 (大)，箱子 (小)，投擲器，發射器，終界箱，木桶，各種界浮盒，漏斗</td></tr><tr><td align="center">其他</td><td>附魔臺，鐵趈</td></tr></tbody></table>
