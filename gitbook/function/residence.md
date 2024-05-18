@@ -34,8 +34,12 @@ layout:
 接著，玩家需要選中區域中的兩個角落。一個點擊右鍵設定第一個角落，而第二個角落則可以左鍵設定第二個角落\
 ( 手機版本玩家需要長按第一個角落，然後點擊第二個角落就好。)
 
+<figure><img src="https://raw.githubusercontent.com/Slime1207/yamotoserver/main/picture/wiki/002.png" alt=""><figcaption><p>框選正確會出現視角 (Java與基岩版一致)</p></figcaption></figure>
+
+最後，輸入 /res create <名稱> 就完成了
+
 #### 領地插件指令
 
-首先，需要先找到一個適合傳送的地方。\
+\
 
 
