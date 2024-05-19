@@ -20,6 +20,6 @@ layout:
 [residence.md](residence.md)
 {% endcontent-ref %}
 
-{% content-ref url="block_protect.md" %}
-[block\_protect.md](block\_protect.md)
+{% content-ref url="block-protect.md" %}
+[block-protect.md](block-protect.md)
 {% endcontent-ref %}
