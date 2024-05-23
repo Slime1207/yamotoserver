@@ -99,7 +99,7 @@ info:
   repairConfirm: '> [塔娘] &e点击确认 &7[items] &e修复物品需要 &7[cost]'
   bookDate: '> [塔娘] &7写于 &f[date]'
   maintenance: '> &l&9伺服器正在處於維修模式! &f<'
-  mapLimit: '>&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l地圖不能超出 30,000,000 方块'
+  mapLimit: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l地圖不能超出 30,000,000 方块'
   startedEditingPainting: '&f> [&d伺服娘&f] 塔娘 : &a✔ &a&l您已开始编辑绘画. 您可以点击其他方块取消.'
   canceledEditingPainting: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l您取消了绘画编辑模式'
   changedPainting: '!actionbar!&e更改绘画为 &6[name] &e,ID为 &6[id]'
