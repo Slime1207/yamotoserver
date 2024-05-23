@@ -489,9 +489,9 @@ command:
     info:
       topLine: '&f> [&d伺服娘&f] 塔娘 : &e✱ &e&l伺服器眠幣榜 : '
       topLineHover: '&6服务器总额: &c[total]'
-      list: '&f> [&d伺服娘&f] 塔娘 : &f➜ &b&l第 &e&l[place] 名 : &6&l[playerDisplayName]
+      list: '&f> [&d伺服娘&f] 塔娘 : &f➜ &e&l第 &b&l[place] &e&l名 : &6&l[playerDisplayName]
         &f&l( &b&l共持有 &e&l[balance] &b&l! &f&l)'
-      ownLine: '&f> [&d伺服娘&f] 塔娘 : &f➜ &b&l第 &e&l[place] 名 : &6&l[playerDisplayName]
+      ownLine: '&f> [&d伺服娘&f] 塔娘 : &f➜ &e&l第 &b&l[place] &e&l名 : &6&l[playerDisplayName]
         &f&l( &b&l共持有 &e&l[balance] &b&l! &f&l) [&a&l在綫&f&l]'
       # Set to empty field if you want to not show hover over message
       hover: '&2[playerName]'
