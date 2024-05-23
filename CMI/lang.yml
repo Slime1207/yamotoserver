@@ -130,7 +130,7 @@ info:
     saved: '&f> [&d伺服娘&f] 塔娘 : &a✔ &a&l已保存编号为 &e&l[id] &a&l的存档! 時間為 &e&l[time]'
     NoSavedInv: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l此玩家没有任何已保存的存档'
     NoEntries: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l文件存在,但未找到任何存档!'
-    CantFind: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l&e找不到该编号对应的存档'
+    CantFind: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l找不到该编号对应的存档'
     TopLine: '&f> [&d伺服娘&f] 塔娘 : &e✱ &e&l[playerDisplayName]已保存的存档 :'
     List: '&f> [&d伺服娘&f] 塔娘 : &f➜ &e&l编号: &6&l[id] | &e&l時間: &6[time]'
     KillerSymbol: ' &6| &c&l死亡 '
