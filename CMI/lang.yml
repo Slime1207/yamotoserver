@@ -90,7 +90,7 @@ info:
     &f<'
   ArmorWillBreak: '!actionbar!&f> &e您的[itemName]即将损坏! &e[current]&6/&e[max] &f<'
   flyingToHigh: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l您不能飞得太高, 伺服器的最大高度为 &6[max]&c!'
-  specializedItemFail: '&f> [塔娘] &c&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l无法确定特定物品的需求值:&7[value]'
+  specializedItemFail: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l无法确定特定物品的需求值:&7[value]'
   sunSpeeding: 睡眠 [count] 的 [total] [hour] 小时 [speed]X 速度
   sleepersRequired: '!actionbar!&f[sleeping] &7中的 &f[required] &7睡眠,用于夜间加速'
   sunSpeedingTitle: '&7[hour]'
