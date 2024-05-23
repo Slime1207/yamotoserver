@@ -118,8 +118,8 @@ info:
     CostToOpen: '!actionbar!&eCharged for opening: [amount]'
     CantUseShulkerBox: '&c在与玩家战斗时无法使用潜影盒.请等待 [time]'
     CantUseCommand: '!actionbar!&c在战斗模式下无法使用命令.请等待 [time]'
-    bossBarPvp: '&f> [&d伺服娘&f] 塔娘 : &e✱ &e&l PVP 將會在 [autoTimeLeft] 結束!'
-    bossBarPve: '&f> [&d伺服娘&f] 塔娘 : &e✱ &e&l PVP 將會在 [autoTimeLeft] 結束!'
+    bossBarPvp: '&f> [&d伺服娘&f] 塔娘 : &e✱ &e&lPVP 將會在 [autoTimeLeft] 結束!'
+    bossBarPve: '&f> [&d伺服娘&f] 塔娘 : &e✱ &e&lPVP 將會在 [autoTimeLeft] 結束!'
   noSchedule: '&f> [&d伺服娘&f] 塔娘 : &c✖ &c&l未找到此名称的排程.'
   totem:
     cooldown: '&f> [&d伺服娘&f] 塔娘 : &e✱ &e&l图腾冷却中:[time]'
