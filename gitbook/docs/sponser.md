@@ -73,16 +73,20 @@ _**若未公告，請把這裏的東西當成參考性的東西就好了。**_
 
 贊助者將會被歸類爲 【 金錢贊助 】
 
-4. 使用 Paypal 贊助
+4. <mark style="color:red;">使用 Paypal 贊助</mark>
 
 此贊助開放給各位海外的冒險者贊助 (但手續費較高)\
+贊助者將會被歸類為 【 金錢贊助 】\
 
 
 ***
 
 #### 贊助者福利
 
-<table data-full-width="true"><thead><tr><th width="248" align="center">事項</th><th width="99" align="center">普通玩家</th><th width="124" align="center">Discord 贊助</th><th align="center">金錢贊助</th></tr></thead><tbody><tr><td align="center">快速睡眠 (/sleep)</td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td align="center">快捷工作臺 (/workbench)</td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td align="center">快捷終界箱 (/ender)</td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td align="center">快捷鐵砧 (/anvil)</td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td></tr><tr><td align="center">領地數量</td><td align="center">30</td><td align="center">50</td><td align="center">60</td></tr><tr><td align="center">傳送點數量</td><td align="center">10</td><td align="center">20</td><td align="center">30</td></tr></tbody></table>
+在贊助完成后，將會有對應金額 (也就是贊助金額 x 10) 的眠幣。(金錢贊助者)\
+并且在 Discord 内也有對應的身分組以及權限。
+
+<table data-full-width="true"><thead><tr><th width="247" align="center">事項</th><th align="center">普通玩家</th><th align="center">Discord 贊助</th><th align="center">金錢贊助</th></tr></thead><tbody><tr><td align="center">領地範圍</td><td align="center">100x100</td><td align="center">100x100</td><td align="center">100x100</td></tr><tr><td align="center">領地數量</td><td align="center">30</td><td align="center">40</td><td align="center">50</td></tr><tr><td align="center">可設定的傳送點數量</td><td align="center">10</td><td align="center">20</td><td align="center">30</td></tr><tr><td align="center">自動簽到</td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td align="center"><em>簽到獎勵</em></td><td align="center">x1</td><td align="center">x2</td><td align="center">x2</td></tr><tr><td align="center">快速睡眠 (/sleep)</td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td align="center">快捷工作臺 (/workbench)</td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td align="center">快捷終界箱 (/ender)</td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span></td></tr><tr><td align="center">快捷鐵砧 (/anvil)</td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td><td align="center"><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span></td></tr></tbody></table>
 
 ***
 
