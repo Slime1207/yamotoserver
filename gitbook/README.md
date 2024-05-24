@@ -50,3 +50,11 @@ layout:
 #### 相關鏈接 URL
 
 > **Discord 群組 :** [**點我**](https://discord.yamoto.xyz)
+
+***
+
+<div data-full-width="true">
+
+<figure><img src="https://image.mc-list.xyz/banner/3-1992.png" alt=""><figcaption></figcaption></figure>
+
+</div>
