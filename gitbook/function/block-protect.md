@@ -24,7 +24,7 @@ layout:
 
 接著，您需要對著您想要保護的方塊點擊右鍵 (手機版則是輕點) 后，即代表已經成功
 
-<figure><img src="https://raw.githubusercontent.com/Slime1207/yamotoserver/main/picture/wiki/003.png" alt=""><figcaption><p>成功保護視角！會出現 [私人] 然後還有你的名稱 (Java與基岩版本相同)</p></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/Slime1207/yamotoserver/main/picture/wiki/003.png" alt=""><figcaption><p>成功保護視角！會出現 [私有] 然後還有你的名稱 (Java與基岩版本相同)</p></figcaption></figure>
 
 #### 保護範圍
 

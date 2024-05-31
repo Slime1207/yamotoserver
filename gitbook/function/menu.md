@@ -24,8 +24,8 @@ layout:
 [block-protect.md](block-protect.md)
 {% endcontent-ref %}
 
-{% content-ref url="rtp.md" %}
-[rtp.md](rtp.md)
+{% content-ref url="others.md" %}
+[others.md](others.md)
 {% endcontent-ref %}
 
 {% content-ref url="imageframe.md" %}
