@@ -53,8 +53,4 @@ layout:
 
 ***
 
-<div data-full-width="true">
-
-<figure><img src="https://image.mc-list.xyz/banner/3-1992.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="https://api.loohpjames.com/serverbanner.png?ip=java.yamoto.xyz&#x26;name=" alt=""><figcaption></figcaption></figure>
