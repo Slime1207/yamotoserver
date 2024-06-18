@@ -50,6 +50,6 @@ layout:
 
 伺服器菜單 Server Menu
 
-{% content-ref url="server-menu.md" %}
-[server-menu.md](server-menu.md)
+{% content-ref url="player_shop.md" %}
+[player\_shop.md](player\_shop.md)
 {% endcontent-ref %}

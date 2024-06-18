@@ -15,5 +15,5 @@ layout:
 # 📗 伺服器菜單 Server Menu
 
 {% hint style="danger" %}
-_**暫時還未有内容。**_
+伺服器
 {% endhint %}

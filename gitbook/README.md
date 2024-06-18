@@ -54,3 +54,5 @@ layout:
 ***
 
 <figure><img src="https://api.loohpjames.com/serverbanner.png?ip=java.yamoto.xyz&#x26;name=" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://sr-api.sfirew.com/server/java.yamoto.xyz/banner/motd.png?hl=tw&#x26;v=f0MTPQeKZb&#x26;mc_font=true&#x26;ip=false&#x26;players=false&#x26;ping=true&#x26;ping_icon=true" alt=""><figcaption><p><strong>台灣 PING 情況 (mcsv.top)</strong></p></figcaption></figure>

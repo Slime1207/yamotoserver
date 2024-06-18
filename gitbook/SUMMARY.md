@@ -17,6 +17,7 @@
 * [📗 快速跳過夜晚 Skip Night](function/skip-night.md)
 * [📗 快速伐木/挖礦/收割 SuperHarvest](function/super-harvest.md)
 * [📗 簽到功能 Sign In](function/signin.md)
+* [📗 玩家商店 Player Shop](function/player\_shop.md)
 * [📗 伺服器菜單 Server Menu](function/server-menu.md)
 * [📗 雜項 Others](function/others.md)
 
