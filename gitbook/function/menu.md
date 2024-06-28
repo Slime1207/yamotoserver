@@ -36,8 +36,8 @@ layout:
 [discord.md](discord.md)
 {% endcontent-ref %}
 
-{% content-ref url="skip-night.md" %}
-[skip-night.md](skip-night.md)
+{% content-ref url="teleprort.md" %}
+[teleprort.md](teleprort.md)
 {% endcontent-ref %}
 
 {% content-ref url="super-harvest.md" %}

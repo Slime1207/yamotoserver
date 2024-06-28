@@ -14,7 +14,7 @@
 * [📗 方塊保護 Block Protect](function/block-protect.md)
 * [📗 地圖繪 Image on Map](function/imageframe.md)
 * [📗 Discord 功能 Discord Tools](function/discord.md)
-* [📗 快速跳過夜晚 Skip Night](function/skip-night.md)
+* [📗 傳送 Teleport](function/teleprort.md)
 * [📗 快速伐木/挖礦/收割 SuperHarvest](function/super-harvest.md)
 * [📗 簽到功能 Sign In](function/signin.md)
 * [📗 玩家商店 Player Shop](function/player\_shop.md)
